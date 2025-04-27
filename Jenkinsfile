@@ -1,7 +1,7 @@
 pipeline {
-    agent { label 'Jenkins-Agent' }
+    agent { label 'Jenkins-Agent-Node1' }
     tools {
-        jdk 'Java17'
+        jdk 'Java21'
         maven 'Maven3'
     }
     environment {
